@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-login {
+    width: 100vw;
+    height: 100vh;
+    background-color: #e0dbdb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-flex {
+    width: 35vw;
+    background-color: #ffffff;
+    border-radius: 0.6rem;
+}
+
+header {
+    width: 88%;
+    margin: auto;
+}
+
+header p {
+    font-size: 2.5rem;
+    line-height: 4rem;
+    margin: 0.5rem 0px;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    color: rgb(79, 79, 79);
+}
+
+.login-section-1 {
+    width: 88%;
+    margin: auto;
+    margin-bottom: 1.8rem;
+}
+
+.lable-login {
+    display: flex;
+    border: 1px solid rgb(48, 143, 197);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 2px 2px #6790be;
+    margin-bottom: 1.6rem;
+}
+
+.login-section-1-item input {
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    width: 175%;
+    padding: 0.7rem 0rem;
+    margin-left: 0.8rem;
+}
+
+.section-2-login {
+    width: 88%;
+    margin: auto;
+    margin-bottom: 1.2rem;
+}
+
+.share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #cec6c6;
+    height: 2.6rem;
+    gap: 1.3rem;
+    border-radius: 0.5rem;
+    /* margin-bottom: 1rem; */
+}
+
+.share .Google {
+    font-size: 1.5rem;
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin-left: 1.1rem;
+}
+
+.share p {
+    font-size: 1.15rem;
+    color: #aca3a3;
+    font-weight: lighter;
+}
+
+.upper-line {
+    display: flex;
+    margin-bottom: 1.8rem;
+}
+
+footer {
+    width: 88%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    color: rgb(28, 28, 28);
+    font-size: 1.1rem;
+    margin: 0px;
+}
+
+footer p a {
+    color: #df5050;
+    text-decoration: none;
+}
+
+.lower-line {
+    margin-bottom: 1rem;
+}
+
+.warning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.warning p {
+    margin: 0;
+}
+
+.warning input {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    margin-right: 0.8rem;
+    margin-bottom: 0.6rem;
+    border-radius: 50%;
+    cursor: pointer;
+    color: red;
+}
+
+.warning p {
+    font-size: 0.8rem;
+}
+
+.warning p span {
+    color: #e06060;
+}
+
+.main-line {
+    width: 88%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Or {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    color: rgb(105, 105, 105);
+    background: rgb(255, 255, 255);
+    padding: 0.1rem 0.2rem 0.5rem 0.2rem;
+    font-size: 1rem;
+}
+
+.OTP button {
+    width: 100%;
+    font-size: 1rem;
+    /* padding: 2.1rem 0; */
+    line-height: 2.1rem;
+    border: none;
+    background-color: #c2bdbd;
+    color: #ffffff;
+    font-weight: 550;
+    border-radius: 0.5rem;
+}
+
+.OTP {
+    margin-top: 1.6rem;
+}
